@@ -1,6 +1,6 @@
 name              'mongodb'
 maintainer        'Nick Bebel'
-maintainer_email  'nbebel@gmail.com'
+maintainer_email  'nbebel@gmail.cpom'
 license           'Apache-2.0'
 description       'Installs and configures mongodb'
 version           '0.16.3'

@@ -91,3 +91,7 @@ bash 'ruby' do
 	EOH
 end
 
+http_request 'test' do
+  url 'http://localhost:8080'
+end
+
