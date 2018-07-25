@@ -17,8 +17,9 @@
 #
 # If you are running a 64-bit system, use the following configuration:
 #
+
 yum_repository 'mongodb.repo' do
-	name 'MongoDB Repository'
+	description 'MongoDB Repository'
 	baseurl 'http://downloads-distro.mongodb.org/repo/redhat/os/x86_64/'
 	gpgcheck '0'
 	enabled '1'
@@ -35,7 +36,7 @@ end
 # Install the MongoDB packages and associated tools.
 #
 
-service 'mongodb-org' do
+yum_package 'mongodb-org' do
 	action :install
 end
 
