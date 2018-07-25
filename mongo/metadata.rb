@@ -6,3 +6,4 @@ description       'Installs and configures mongodb'
 version           '0.16.3'
 
 depends 'yum', '>= 3.0'
+
