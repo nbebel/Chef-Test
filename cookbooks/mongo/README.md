@@ -24,3 +24,6 @@ Creating a new client identity for ip-172-31-76-76.ec2.internal using the valida
 
 ================================================================================
 Chef encountered an error attempting to create the client "ip-172-31-76-76.ec2.internal"
+
+Ran chef-client --local-mode mongo.rb and got this in stacktrace
+Chef::Exceptions::ValidationFailed: Property gpgcheck must be one of: TrueClass, FalseClass!  You passed "0"
