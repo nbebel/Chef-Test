@@ -12,6 +12,7 @@ From the starter kit, set up Berksfile, roles.rb and cookbooks folder
 Set up kitchen.yml file
 
 Install git on server
+
 Pulled in git repo
 Installed ChefDK
 
@@ -24,3 +25,4 @@ Creating a new client identity for ip-172-31-76-76.ec2.internal using the valida
 
 ================================================================================
 Chef encountered an error attempting to create the client "ip-172-31-76-76.ec2.internal"
+

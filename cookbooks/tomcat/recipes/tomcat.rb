@@ -36,7 +36,7 @@ bash 'permissions' do
 end
 
 file '/etc/systemd/system/tomcat.service' do
-  content '# Systemd unit file for tomcat
+  content "# Systemd unit file for tomcat
             [Unit]
             Description=Apache Tomcat Web Application Container
             After=syslog.target network.target
@@ -61,7 +61,7 @@ file '/etc/systemd/system/tomcat.service' do
             Restart=always
 
             [Install]
-            WantedBy=multi-user.target'
+            WantedBy=multi-user.target"
           end
 
 sudo 'enable' do

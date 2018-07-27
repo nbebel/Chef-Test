@@ -4,7 +4,6 @@ NOTE:
 Have not been successful yet in testing this.
 Attempted to run locally with VirtualBox, Vagrant and ChefDK
 Broke numerous times when attempting to Kitchen Converge
-
 Have been attempting to run on Amazon server with Chef OpsWorks
 
 From the starter kit, set up Berksfile, roles.rb and cookbooks folder
@@ -37,3 +36,4 @@ Unknown Server Error:
 The server had a fatal error attempting to load the node data.
 
 Seems to be permissions issue
+
