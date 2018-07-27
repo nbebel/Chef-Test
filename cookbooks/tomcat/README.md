@@ -1,7 +1,5 @@
 # tomcat
 
-TODO: Enter the cookbook description here.
-
 NOTE:
 Have not been successful yet in testing this.
 Attempted to run locally with VirtualBox, Vagrant and ChefDK
