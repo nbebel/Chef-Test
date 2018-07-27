@@ -1,7 +1,5 @@
 # mongo
 
-TODO: Enter the cookbook description here.
-
 NOTE:
 Have not been successful yet in testing this.
 Attempted to run locally with VirtualBox, Vagrant and ChefDK
@@ -14,4 +12,17 @@ From the starter kit, set up Berksfile, roles.rb and cookbooks folder
 Set up kitchen.yml file
 
 Install git on server
-Working on getting git repo to pull
+
+Pulled in git repo
+Installed ChefDK
+
+Kept seeing this error as I had on local
+[2018-07-27T16:19:41+00:00] WARN: *****************************************
+[2018-07-27T16:19:41+00:00] WARN: Did not find config file: /etc/chef/client.rb, using command line options.
+[2018-07-27T16:19:41+00:00] WARN: *****************************************
+Starting Chef Client, version 13.8.5
+Creating a new client identity for ip-172-31-76-76.ec2.internal using the validator key.
+
+================================================================================
+Chef encountered an error attempting to create the client "ip-172-31-76-76.ec2.internal"
+
